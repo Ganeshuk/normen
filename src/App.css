@@ -1,0 +1,40 @@
+form{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: azure;
+  padding: 10px;
+  box-shadow: 0px 0px 3px 3px gray;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+@media(max-width:700px){
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:100%;
+    margin:10px;
+  overflow: auto; 
+
+}
+    button{
+      margin:10px
+    }
+   
+      
+    
+    
+    
+}
+.p{
+  width:90px;
+  overflow: auto;
+}
